@@ -21,6 +21,10 @@ docker compose up --build -d
 docker exec -it export-thing-php composer install
 ```
 
+### 3. Try it out
+
+Open your browser and navigate to [http://localhost:8000/vehicles/export](http://localhost:8000/vehicles/export) to export a list of vehicles.
+
 ## 💡 Useful commands
 
 ### Stop the containers
